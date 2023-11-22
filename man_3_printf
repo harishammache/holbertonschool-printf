@@ -47,6 +47,10 @@ If no l modifier is present: the const char * argument is expected to be a point
 For %
 A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
+For d and i 
+The int argument is converted to signed decimal notations. The precision, if any, gives the minimum number of digits thhat must appear; if the converted value requires fewer digits.
+it is padded on the left with zeros. The defaut precision is 1. When 0 is printed with an explicit precision 0, the output is empty.
+
 ------------------------------------------------------------------------------------------------------
 RETURN VALUE 
 Upon successful return, these functions return the number of characters printed, excluding the null byte used to end output to strings.

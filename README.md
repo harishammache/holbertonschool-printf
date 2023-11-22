@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-    participant dotcom
+    participant cat
     participant iframe
     participant viewscreen
     dotcom->>iframe: loads html w/ iframe url

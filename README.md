@@ -19,6 +19,9 @@ Printf instruction allows you to display on the screen the value of a variable, 
 |%%|print a percent sign| %
 |%s|print a string of characters| HOLBERTON
 |%f|print a floating-point number| 9,8
+=======
+Readme for printf
+
 
 
 
@@ -61,6 +64,11 @@ display on screen --> I have learn the language C in Holberton
 ## Organigramme
 ![Alt text](<START (2).png>)
 =======
+=======
+
+---------------------------------------------------------------------------------
+
+>>>>>>> 3234ed5 (man_3-printf)
 ```mermaid
 sequenceDiagram
     participant cat
@@ -73,3 +81,4 @@ sequenceDiagram
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
 ```
+

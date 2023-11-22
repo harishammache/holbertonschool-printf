@@ -63,7 +63,7 @@ display on screen --> I have learn the language C in Holberton
 =======
 ```mermaid
 sequenceDiagram
-    participant dotcom
+    participant cat
     participant iframe
     participant viewscreen
     dotcom->>iframe: loads html w/ iframe url

@@ -78,13 +78,19 @@ For %
 A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 701ca8f (man_3_printf)
 For d and i 
 The int argument is converted to signed decimal notations. The precision, if any, gives the minimum number of digits thhat must appear; if the converted value requires fewer digits.
 it is padded on the left with zeros. The defaut precision is 1. When 0 is printed with an explicit precision 0, the output is empty.
 
+<<<<<<< HEAD
 ------------------------------------------------------------------------------------------------------
 .SH RETURN VALUE 
 =======
+=======
+>>>>>>> 701ca8f (man_3_printf)
 ------------------------------------------------------------------------------------------------------
 RETURN VALUE 
 >>>>>>> aba7555 (man_3_printf)

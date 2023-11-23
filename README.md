@@ -31,7 +31,6 @@ for
 **p r i n t f  ( )  f u n c t i o n  -  formatted output**
 ____________________________________________________________________________
 
-**![_printf]**(C:/Users/Thonon Student 01/OneDrive/Bureau/Holberton School Thonon - Ph. M/keep-calm-and-carry-on-1368463748qW4)
 
 **DESCRIPTION**
 
@@ -153,14 +152,16 @@ display on screen --> I have learn the language C in Holberton
 =======
 
 ---------------------------------------------------------------------------------
+printf() function's flow chart
+_printf - Print a text on standard output
+
 
 >>>>>>> 3234ed5 (man_3-printf)
 ```mermaid
+
 sequenceDiagram
-    participant cat
-    participant iframe
-    participant viewscreen
-    dotcom->>iframe: loads html w/ iframe url
+    Start->> function:int (*f)(va_list)
+
     iframe->>viewscreen: request template
     viewscreen->>iframe: html & javascript
     iframe->>dotcom: iframe ready

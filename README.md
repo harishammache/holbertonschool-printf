@@ -59,3 +59,4 @@ displayed on screen -->  My school is Holberton
 display on screen --> I have learn the language C in Holberton
 
 ## Organigramme
+![Alt text](START.png)

@@ -13,7 +13,7 @@ int print_str(va_list arg)
 
 	if (str == NULL)
 	{
-		return (-1);
+		str = "(null)";
 	}
 	for (index = 0; str[index]; index++)
 	{

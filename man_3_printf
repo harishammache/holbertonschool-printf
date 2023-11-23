@@ -1,22 +1,22 @@
-COMMON PROJECT PRINTF /
-Sirs Haris HAMMACHE & Philippe MARCLAY,
+.\" COMMON PROJECT PRINTF
+. SH Sirs Haris HAMMACHE & Philippe MARCLAY,
 associated publishers, Copyright MMXXIII
 
 
-L I B R A R Y   M A N 
+.SH L I B R A R Y   M A N 
 
 for  P  R  I  N  T  F
 
 
 
 
-Published on 20.11.2023
+.TH Published on 20.11.2023
 
 ---------------------------------------------------------------------------------------------------
-NAME: PRINTF  /  LIBRARY: Standard C Library
+.SH NAME: PRINTF  /  LIBRARY: Standard C Library
 ---------------------------------------------------------------------------------------------------
 
-SYNOPSIS
+.SH SYNOPSIS
 
 #include <stdio.h>
 
@@ -32,7 +32,7 @@ int vfprintf(FILE *stream, const char *format, va_list ap);
 int vsnprintf (char *str, size8t size, const char *format, va_list ap)
 
 ---------------------------------------------------------------------------------------------------
-DESCRIPTION
+.SH DESCRIPTION
 
 The functions in the printf() produce output according to a format as descrbed below.
 The functions printf() write output to stdout, the standart output stream.
@@ -58,14 +58,14 @@ The int argument is converted to signed decimal notations. The precision, if any
 it is padded on the left with zeros. The defaut precision is 1. When 0 is printed with an explicit precision 0, the output is empty.
 
 ------------------------------------------------------------------------------------------------------
-RETURN VALUE 
+.SH RETURN VALUE 
 Upon successful return, these functions return the number of characters printed, excluding the null byte used to end output to strings.
 The functions printf(percentage) and vsnprintf() for exemples do not write more thhan size bytes, including the terminating null byte ('\0').
 If the output was truncated due ti this limit, then the return value is the number of characters, excluding the termating null byte, which would have been written to the finalstring if enough space had been available.
 Thus, a return value of size or more means that the output was truncated.
 If an output error is encountered, an negative value is returned.
 
-ATTRIBUTES 
+.SH ATTRIBUTES 
 For an explanation of the terms used in this section 
 
 Interface                   Attribute           Value 
@@ -75,7 +75,7 @@ sprintf(), snprintf(),
 vprintf(), vfprintf(),
 vsprintf(), vsnprintf()  
 
-STANDARDS
+.SH STANDARDS
 
 fprintf()
 printf()
@@ -85,7 +85,7 @@ vsprintf()
 snprint()
 vsnprintf()
 
-HISTORY
+.SH HISTORY
 
 fprintf()
 printf()
@@ -110,7 +110,7 @@ POSIX.1-2001 / This was a 2001 revision and consolidation ot the POSIX.1, POSIX.
 The POSIX.1-2001 document can be branded UNIX 03.
 
 ----------------------------------------------------------------------------------------------------------
-CAVEATS
+.SH CAVEATS
 
 To apend text tu buf. However, the standards explicity note that the results are indefined if source and destinations buffers averlap when calling sprintf(), snprintf(), vsprintf(), and vsnprintf(). Depending on the version of ggc used, and the compiler options employed, calls such as the above will not produce the expected results.
 

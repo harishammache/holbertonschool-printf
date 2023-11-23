@@ -1,4 +1,4 @@
-                                         PRINTF
+                                           # PRINTF
 
 This project creates our own version of printf from the standard library. This is a group project from HolbertonSchool training
 

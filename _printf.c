@@ -26,7 +26,8 @@ int _printf(const char *format, ...)
 			if (format[index + 1] != '\0')
 			{
 				if (format[index + 1] != 'c' && format[index + 1] != 's'
-				&& format[index + 1] != '%')
+				&& format[index + 1] != '%' && format[index + 1] != 'i'
+				&& format[index + 1] != 'd')
 				{
 					number_total_characters += _putchar(format[index]);
 					number_total_characters += _putchar(format[index + 1]);

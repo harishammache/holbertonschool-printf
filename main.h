@@ -16,9 +16,10 @@ typedef struct op
 
 int (*fund_function(const char *format))(va_list);
 int _putchar(char c);
-int print_str(va_list args);
+int print_str(va_list arg);
 int print_char(va_list arg);
 int print_pourcentage(__attribute__((unused))va_list arg);
 int _printf(const char *format, ...);
+int print_integ(va_list arg);
 
 #endif

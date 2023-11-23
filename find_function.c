@@ -14,10 +14,12 @@ int(*fund_function(const char *format))(va_list)
 		{"c", print_char},
 		{"s", print_str},
 		{"%", print_pourcentage},
+		{"i", print_integ},
+		{"d", print_integ},
 		{NULL, NULL}
 	};
 
-	for (index = 0; index <= 2; index++)
+	for (index = 0; index <= 4; index++)
 	{
 		if (*ops[index].ap == *format)
 		{

@@ -1,5 +1,5 @@
-.\" COMMON PROJECT PRINTF
-. SH Sirs Haris HAMMACHE & Philippe MARCLAY,
+.\" Manpage for COMMON PROJECT PRINTF
+.SH NAME Sirs Haris HAMMACHE & Philippe MARCLAY,
 associated publishers, Copyright MMXXIII
 
 
@@ -68,12 +68,16 @@ If an output error is encountered, an negative value is returned.
 .SH ATTRIBUTES 
 For an explanation of the terms used in this section 
 
-Interface                   Attribute           Value 
-
-printf(), fprintf(),        Thread safety       Mt-safe locale
-sprintf(), snprintf(),
-vprintf(), vfprintf(),
-vsprintf(), vsnprintf()  
+-------------------------------------------------------------------------------------------
+Interface
+printf(), fprintf(), sprintf(), snprintf(), vprintf(), vfprintf(), vsprintf(), vsnprintf()
+-------------------------------------------------------------------------------------------
+Attribute
+Thread safety
+-------------------------------------------------------------------------------------------
+Value 
+Mt-safe locale
+-------------------------------------------------------------------------------------------
 
 .SH STANDARDS
 

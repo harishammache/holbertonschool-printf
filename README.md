@@ -1,4 +1,3 @@
-
                                                    PRINTF
 
 This project creates our own version of printf from the standard library. This is a group project from HolbertonSchool training
@@ -20,6 +19,7 @@ Printf instruction allows you to display on the screen the value of a variable, 
 |%%|print a percent sign| %
 |%s|print a string of characters| HOLBERTON
 |%f|print a floating-point number| 9,8
+
 =======
 Readme for printf
 =======
@@ -110,6 +110,8 @@ _printf("% s", "Hello"); // the output will be: Hello
 _printf("% k"); // the output will be: % k
 
 **Authors**: Sirs Haris HAMMACHE and Philippe MARCLAY, associated publishers
+=======
+
 
 
 
@@ -148,6 +150,7 @@ display on screen --> I have learn the language C in Holberton
 
 ## Organigramme
 ![Alt text](<START (2).png>)
+
 =======
 =======
 
@@ -156,7 +159,7 @@ printf() function's flow chart
 _printf - Print a text on standard output
 
 
->>>>>>> 3234ed5 (man_3-printf)
+
 ```mermaid
 
 sequenceDiagram
@@ -170,3 +173,4 @@ sequenceDiagram
 ```
 ---------------------------------------------------------------------------------------
 Published on 22.11.2023
+=======
